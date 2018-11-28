@@ -1,0 +1,16 @@
+PODS:
+  - ETStaticLib (0.1.0)
+
+DEPENDENCIES:
+  - ETStaticLib (from `../`)
+
+EXTERNAL SOURCES:
+  ETStaticLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ETStaticLib: 8a1ec51a625061cb63ca4f82dbf328d1756a027c
+
+PODFILE CHECKSUM: 57bc1c5f9832c4da68b7735830e703024beb5116
+
+COCOAPODS: 1.5.3

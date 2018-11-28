@@ -1,0 +1,6 @@
+framework module ETStaticLib {
+  umbrella header "ETStaticLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

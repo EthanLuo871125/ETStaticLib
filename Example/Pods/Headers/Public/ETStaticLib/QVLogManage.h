@@ -1,0 +1,1 @@
+../../../../../ETStaticLib/Classes/QVLogManage.h

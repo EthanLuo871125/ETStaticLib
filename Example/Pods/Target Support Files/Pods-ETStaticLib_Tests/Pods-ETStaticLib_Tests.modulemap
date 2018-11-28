@@ -1,0 +1,6 @@
+framework module Pods_ETStaticLib_Tests {
+  umbrella header "Pods-ETStaticLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
