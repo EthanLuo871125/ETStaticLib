@@ -30,7 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ETStaticLib/Classes/**/*'
+  s.source_files = 'ETStaticLib/Classes/*'
+  
+  s.vendored_libraries = 'ETStaticLib/Classes/*.a'
+  s.subspec 'dandan' do |ss|
+    ss.vendored_libraries = 'ETStaticLib/Classes/dandan/*.a'
+    end
+  
   
   # s.resource_bundles = {
   #   'ETStaticLib' => ['ETStaticLib/Assets/*.png']
