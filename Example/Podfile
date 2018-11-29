@@ -1,7 +1,9 @@
 #use_frameworks!
 platform:ios,'9.3'
 target 'ETStaticLib_Example' do
-  pod 'ETStaticLib', :path => '../'
+    pod 'ETStaticLib' :path => '../'
+  #pod 'AFNetworing'
+  
 
   target 'ETStaticLib_Tests' do
     inherit! :search_paths
