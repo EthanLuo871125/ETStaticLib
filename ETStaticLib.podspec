@@ -34,8 +34,9 @@ TODO: Add long description of the pod here.
   
   s.vendored_libraries = 'ETStaticLib/Classes/*.a'
   s.subspec 'dandan' do |ss|
+  	ss.source_files = 'ETStaticLib/Classes/dandan/*'
     ss.vendored_libraries = 'ETStaticLib/Classes/dandan/*.a'
-    end
+  end
   
   
   # s.resource_bundles = {
